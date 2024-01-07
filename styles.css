@@ -1,0 +1,119 @@
+#main{
+  text-align: center;
+  margin: 0;
+  background-color: #CDC5BA;
+}
+
+#tribute-info{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #EFEAE5;
+  border-radius: 16px;
+  margin-top: 65px;
+
+
+}
+
+#title{
+   
+    font-size: 71px;
+    padding-top: 22px;
+    margin-bottom: 15px;
+    font-style: oblique;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: 9px;
+    
+}
+
+#title-paragraph{
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 20px;
+
+}
+
+
+#headline{
+  
+  font-family: Georgia;
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 70px;
+  padding-top: 48px;
+}
+
+ul{
+  text-align: left;
+
+}
+
+li{
+  margin-top: 70px;
+  font-size: 26px;
+}
+
+#inspiration-quote{
+  font-size: 22px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  padding-top: 96px;
+  padding-bottom: 7px;
+}
+
+
+#img{
+  display: block;
+}
+
+#img-caption{
+  margin: 20px;
+  padding-bottom: 21px;
+  font-family: Georgia;
+  font-style: oblique;
+  font-size: 19px;
+}
+
+#img-div{
+  margin: 0;
+  background-color: #EFEAE5;
+  padding-top: 27px;
+}
+
+
+#image{
+
+  box-shadow: 0 0 16px black;
+  border-radius: 6px;
+}
+
+
+/* #early-life{
+  background-image: url("thumb-256px.svg");
+} */
+
+#book-svg {
+  opacity: 0.4;
+  perspective: 50rem;
+  transform: translateX(-100px) rotateZ(-40deg);
+  animation: bookIntro 1s ease forwards;
+}
+
+@keyframes bookIntro {
+  100% {
+    transform: translateX(0) rotateZ(0deg);
+  }
+}
+
+h3{
+  font-size: 23px;
+  padding-bottom: 20px;
+}
